@@ -1,0 +1,618 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf);
+   }
+
+@font-face {
+    font-family: Open Sans Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+   }
+
+@font-face {
+    font-family: Open Sans Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+   }
+
+@font-face {
+    font-family: Lato Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+   }
+
+ @font-face {
+    font-family: Lato Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+   }
+
+ @font-face {
+    font-family: Open Sans ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+   }
+
+ @font-face {
+    font-family: Open Sans Italic;
+    src: url(../fonts/OpenSans-Italic.ttf);
+   }
+
+  @font-face {
+    font-family: PTSans Regular;
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
+   }
+/*=========================================RST=========================================*/
+body{
+	color: #ffffff;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	list-style-type: none;
+}
+
+/*==============================================HEADER BANNER===================================*/
+
+header{
+	width: 100%;
+	background: url(../img/slider.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-bottom: 2px;
+}
+
+.block-menu{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 15px 0px;
+	height: 40px;
+}
+
+.logo{
+	float: left;
+}
+
+.logo a{
+	font-size: 30px;
+	color: #ffc155;
+	font-family: Pacifico;
+}
+
+ul.menu{
+	float: right;
+}
+
+ul.menu li{
+	display: inline-block;
+	margin: 8px 24px;
+}
+
+ul.menu li a{
+	font-size: 18px;
+	color: #ffffff;
+	font-family: Open Sans Regular;
+}
+
+p.text-slider{
+	font-family: Open Sans Bold;
+	text-align: center;
+	font-size: 48px;
+	line-height: 0.7;
+	margin: 200px 0px 100px;
+}
+
+p.text-slider span{
+	font-family: Open Sans Regular;
+	font-size: 25px;
+}
+
+.input-buttons{
+	text-align: center;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    background: #709dca;
+    border: 0px;
+    font-family: Open Sans Bold;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 13px 17px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+form{
+	text-align: center;
+	margin: 27px 0px 50px;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+	width: 26px;
+    height: 31px;
+    vertical-align:middle;
+ 	background:url(../img/eclipse.png) 5px no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(../img/eclipse.png) -31px no-repeat;
+    color:#f2f2f2;
+    font-family:Arial, sans-serif;
+}
+
+.right-arrow{
+    color: #ffc155;
+    position: absolute;
+    width: 53px;
+    height: 43px;
+    top: 277px;
+    left: 125px;
+    background: url(../img/arrows.png) -3px no-repeat;
+    cursor: pointer;
+}
+
+.left-arrow{
+    color: #ffc155;
+    position: absolute;
+    width: 53px;
+    height: 43px;
+    top: 277px;
+    right: 125px;
+    background: url(../img/arrows.png) -1084px no-repeat;
+    cursor: pointer;
+}
+
+/*==============================================BLOCK OFFER===================================*/
+.block-offer{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.head-offer{
+	text-align: center;
+	color: #709dca;
+	font-family: Open Sans Bold;
+	font-size: 24px;
+	margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.head-offer span{
+	text-align: center;
+	color: #394b50;
+	font-family: Open Sans Regular;
+	font-size: 16px;
+}
+
+ul.text-in-offer{
+	display: inline-block;
+	margin: 24px;
+}
+
+.text-in-offer li div{
+    float: left;
+    margin-bottom: 82px;
+    margin-right: 10px;
+}
+
+.text-in-offer li p{
+    color: #7b7b7b;
+    font-size: 13px;
+    line-height: 1.5;
+    display: inline-block;
+    width: 445px;
+    margin: 0px;
+    font-family: Open Sans Regular;
+    margin-bottom: 54px;
+}
+
+.text-in-offer li p strong{
+    color: #394b50;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: Lato Bold;
+    text-transform: uppercase;
+}
+
+/*==============================================WHO WE ARE===================================*/
+section{
+	width: 100%;
+	height: 600px;
+	background: url(../img/download.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	padding-bottom: 2px;
+	background-color: #ffc155;
+}
+
+.who-we-are{
+	float: right;
+	width: 500px;
+	padding: 52px;
+}
+
+.who-we-are p{
+	font-family: Open Sans Regular;
+	line-height: 1.5;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: Open Sans Bold;
+	color: #ffffff;
+}
+
+.red-more{
+	background: #e7ad48;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Lato Regular;
+	border: 1px solid #cb8d21;
+	border-radius: 1px;
+	margin-top: 70px;
+}
+
+/*==============================================SEE BLOCK===================================*/
+
+.see-block{
+	width: 100%;
+	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #709dca;
+	font-family: Open Sans ExtraBold;
+	margin-top: 90px;
+}
+
+div.see-block p{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #062033;
+	width: 920px;
+	margin: 0 auto;
+	font-family: Open Sans Regular;
+	margin-top: 36px;
+}
+
+.see-block-buttons{
+	text-align: center;
+	margin: 40px 0px 25px;
+}
+
+.see-block-buttons li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.see-block-buttons li a{
+	font-family: Open Sans Regular;
+	font-size: 15px;
+	color: #062033;
+	padding: 2px 17px;
+	border-radius: 4px;
+}
+
+.see-block-buttons li a:hover,
+.see-block-buttons li a:active{
+	color: #ffffff;
+	background: #709dca;
+}
+
+/*==============================================COLLAGE BLOCK===================================*/
+.bg1 {
+	background-image: url(../img/img1.png);
+}
+
+.bg1:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img1.png);
+}
+
+.bg2 {
+	background-image: url(../img/img2.png);
+}
+
+.bg2:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img2.png);
+}
+
+.bg3 {
+	background-image: url(../img/img3.png);
+}
+
+.bg3:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img3.png);
+}
+
+.bg4 {
+	background-image: url(../img/img4.png);
+}
+
+.bg4:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img4.png);
+}
+
+.bg5 {
+	background-image: url(../img/img5.png);
+}
+
+.bg5:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img5.png);
+}
+
+.bg6 {
+	background-image: url(../img/img6.png);
+}
+
+.bg6:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img6.png);
+}
+.bg7 {
+	background-image: url(../img/img7.png);
+}
+
+.bg7:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img7.png);
+}
+.bg8 {
+	background-image: url(../img/img8.png);
+}
+
+.bg8:hover{
+  background-image: linear-gradient( rgba(255, 193, 85, 0.53), rgba(255, 193, 85, 0.53)), url(../img/img8.png);
+}
+}
+
+.wrapper {
+	min-width: 960px;
+	max-width: 1200px;
+	text-align: center;
+}
+
+.parent {
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    width: 320px;
+    height: 300px;
+    margin: -2px;
+}
+
+.child {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.child a {
+    font-size: 17px;
+    font-family: Open Sans Bold;
+    width: 238px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    display: none;
+    padding-top: 95px;
+}
+
+.child a span {
+    font-size: 17px;
+    font-family: Open Sans Regular;
+}
+
+.child a img {
+    display: block;
+    margin: auto;
+}
+
+.child:hover a {
+    display: block;
+}
+
+
+/*==============================================Testimonials===================================*/
+
+div.text-both p{
+    font-family: Open Sans Italic;
+    color: #747474;
+    font-size: 13px;
+    display: inline-block;
+    width: 369px;
+    text-align: left;
+    background: url(../img/arrow.png);
+    background-size: cover;
+    padding: 30px 37px 48px;
+    margin: 0px 30px 30px;
+}
+
+.icon1{
+	display: inline-block;
+    position: relative;
+    top: 219px;
+    left: -298px;
+    color: #747474;
+    font-size: 13px;
+    font-family: PTSans Regular;
+}
+
+.icon1 img,
+.icon2 img{
+	vertical-align: middle;
+}
+.icon2{
+    display: inline-block;
+    position: relative;
+    top: 219px;
+    left: 39px;
+    color: #747474;
+    font-size: 13px;
+    color: #4d4e50;
+    font-family: PTSans Regular;
+}
+
+
+footer{
+    background: #273a43;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.logofoter{
+     margin: 20px 0px;
+}
+
+.logofoter a {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: Pacifico;
+   
+}
+
+.footer-block{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+ul.footer-block li{
+    display: inline-block;
+    width: 234px;
+    margin: 0px 36px;
+    vertical-align: top;
+}
+
+.text-footer{
+    color: #c3c3c3;
+    font-family: Lato Regular;
+    font-size:14px;
+}
+
+.heder-text{
+    color: #ffffff;
+    font-family: Open Sans Regular;
+    font-size:22px;
+    margin: 20px 0px;
+}
+
+.block-contakt{
+    margin: 20px 0px;
+}
+
+.block-contakt span{
+    margin: 5px;
+    color: #ffffff;
+    font-family: Open Sans Regular;
+    font-size:14px;
+}
+
+.block-contakt img{
+    vertical-align: bottom;
+}
+
+.block-twitter div{
+    padding-left: 33px;
+    background: url(../img/twitter.png) no-repeat;
+    font-family: Open Sans Regular;
+    font-size:14px;
+    color: #c3c3c3;
+    margin-bottom: 15px;
+}
+
+.block-twitter div span{
+    font-family: Open Sans Regular;
+    font-size:14px;
+    color: #71b6d5;
+}
+
+.input-block{
+    text-align: left;
+}
+
+input[type="text" i] {
+   
+    border-radius: 4px 0px  0px  4px;
+    -webkit-border-radius: 4px 0px  0px  4px;
+    -moz-border-radius: 4px 0px  0px  4px;
+    border: none;
+    padding: 10px;
+    background: #172227;
+    font-family: Open Sans Regular;
+    color: #a7a7a7;
+    font-size:14px;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+}
+
+.butt{
+    font-family: Open Sans Regular;
+    color: #ffffff;
+    font-size:14px;
+    padding: 10px;
+    margin-left: -6px;
+    border-radius: 0px 4px  4px  0px;
+}
+
+.last-footer{
+    background: #172227;
+    width: 100%;
+}
+
+.last-footer-width{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.copirigt{
+    font-family: Open Sans Regular;
+    color: #c4c4c4;
+    font-size:14px;
+    display: inline;
+    text-align: center;
+}
+
+.margin-center{
+    margin: 0px 292px;
+}
+.social{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social a{
+    display: inline-block;
+}
